@@ -14,9 +14,10 @@ public class RREncrypt
       {
         lines[0] += inputCipher.charAt(i);
       }
+      //lines[0] += " "; //Do not need if second loop works
 
       //For multiple lines
-      for (q=0; q<linesNo-1; q++)
+      for (q=1; q<linesNo-1; q++)
       {
       lines[q] = " ";
         for (i=q; i<p; i+=2)
