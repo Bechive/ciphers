@@ -8,7 +8,7 @@ public class main
       System.out.print("Enter here: ");
       String inputCipher = scn.next();
 
-      String outputCipher = RREncrypt.RREncrypt("1");
+      String outputCipher = RREncrypt.RREncrypt(inputCipher, 3);
 
       System.out.println("Cipher text: " + outputCipher);
   }

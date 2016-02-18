@@ -1,7 +1,16 @@
 public class RREncrypt
 {
-  public static String RREncrypt(String inputCipher)
+  public static String RREncrypt(String inputCipher, int linesNo)
   {
-      return "s";
+
+
+
+
+
+
+      String[] lines = {"ss", "qq", "dd"};
+
+      String outputCipher = lines[0] + lines[1] + lines[2];
+      return outputCipher;
   }
 }
