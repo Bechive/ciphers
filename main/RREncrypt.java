@@ -8,8 +8,8 @@ public class RREncrypt
       lines = new String[linesNo];
 
       lines[0] = "";
-      lines[1] = "";
-      lines[2] = "";
+      lines[1] = " ";
+      lines[2] = " ";
 
       //For the first line
       for (i=0; i<p; i+= (linesNo-1)*2)
@@ -17,10 +17,17 @@ public class RREncrypt
         lines[0] += inputCipher.charAt(i);
       }
 
+      //For the second line
+      for (i=1; i<p; i+=(2))
+      {
+        lines[1] += inputCipher.charAt(i);
+      }
 
-
-
-
+      //For the last line
+      for (i=linesNo-1; i<p; i+= (linesNo-1)*2)
+      {
+        lines[2] += inputCipher.charAt(i);
+      }
 
 
 
