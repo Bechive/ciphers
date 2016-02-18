@@ -8,7 +8,10 @@ public class main
       System.out.print("Enter here: ");
       String inputCipher = scn.next();
 
-      String outputCipher = RREncrypt.RREncrypt(inputCipher, 3);
+      System.out.print("Enter number of lines: ");
+      int linesNo = scn.nextInt();
+
+      String outputCipher = RREncrypt.RREncrypt(inputCipher, linesNo);
 
       System.out.println("Cipher text: " + outputCipher);
   }
