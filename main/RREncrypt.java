@@ -1,29 +1,23 @@
 public class RREncrypt
 {
-  public static String RREncrypt(String inputCipher, int linesNo)
+  public static String RREncrypt(String inputCipher, int lines)
   {
-      int i;
-      int q; //for the middle lines
       int p = inputCipher.length();
-      String[] lines;
-      lines = new String[linesNo];
+      int c = p/lines;
+      char grd[][]= new char[p][c];
 
+      int i, j, k=0;
       //For all lines
-      for (q=1; q<linesNo-1; q++)
-      {
-      lines[q] = "";
-        for (i=q; i<p; i+=2)
-        {
-          lines[q] += inputCipher.charAt(i);
-        }
-      }
+      for (i=0, )
+
+
 
       //returns text
       String outputCipher = "";
-      for (i=0; i<linesNo; i++)
-      {
-        outputCipher += " " + lines[i] + " ";
-      }
+
+
+
+
       return outputCipher;
   }
 }
