@@ -10,7 +10,8 @@ The project will support the following ciphers:
 - Rail-Fence
 - Baudot
 - More to come...
-The final goal is make a library of common ciphers for public use
+
+######The final goal is make a library of common ciphers for public use
 
 #####Skills Required
 - MVC model
@@ -33,8 +34,8 @@ The project will consit of three main directories; ciphers, user and test
  - view
  - controller
  
-- test
-Test cases for each cipher type to check if changes made affect the reliability
+- test <br>
+ - Test cases for each cipher type to check if changes made affect the reliability
 
 ###References
 ROT N - http://theblob.org/rot.cgi
