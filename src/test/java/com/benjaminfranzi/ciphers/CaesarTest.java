@@ -17,7 +17,7 @@ public class CaesarTest {
     public void decryptPangram() {
         Caesar caesar = new Caesar();
         String expectedOut = "The Quick Brown Fox Jumped Over The Lazy Dog";
-        String actualOut = caesar.encrypt("Uif Rvjdl Cspxo Gpy Kvnqfe Pwfs Uif Mbaz Eph");
+        String actualOut = caesar.decrypt("Uif Rvjdl Cspxo Gpy Kvnqfe Pwfs Uif Mbaz Eph");
         Assert.assertEquals(expectedOut,actualOut);
     }
 
