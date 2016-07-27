@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
-
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="com.benjaminfranzi.user.controller.MainController"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Spinner?>
+
+<?import javafx.scene.control.TextField?>
+<?import java.lang.Integer?>
+<?import java.lang.String?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.collections.FXCollections?>
+<?import com.benjaminfranzi.ciphers.Cipher?>
+<VBox fx:controller="com.benjaminfranzi.user.controller.MainController"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <!--Header-->
+    <HBox spacing="5" alignment="CENTER">
+        <ComboBox fx:id="mainCb"/>
+        <ComboBox fx:id="intCb" disable="true">
+            <value>
+                <Integer fx:value="0"/>
+            </value>
+        </ComboBox>
+        <CheckBox fx:id="decryptCh" text="Decrypt?"/>
+        <Button fx:id="useBtn" text="Use" onAction="#handleUse"/>
+    </HBox>
+    <!--Body-->
+    <VBox>
+        <Label text="Input:"/>
+        <TextArea fx:id="inputTa"/>
+        <Label text="Output:"/>
+        <TextArea fx:id="outputTa"/>
+    </VBox>
+
+</VBox>
