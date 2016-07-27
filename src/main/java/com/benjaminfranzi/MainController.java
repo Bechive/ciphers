@@ -1,4 +1,4 @@
-package com.benjaminfranzi.user.controller;
+package com.benjaminfranzi;
 
 import com.benjaminfranzi.ciphers.common.Cipher;
 import com.benjaminfranzi.ciphers.common.Init;
