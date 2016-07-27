@@ -1,5 +1,6 @@
 package com.benjaminfranzi.ciphers;
 
+import com.benjaminfranzi.ciphers.common.Cipher;
 import com.benjaminfranzi.ciphers.common.Shift;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;

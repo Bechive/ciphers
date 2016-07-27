@@ -1,9 +1,9 @@
 package com.benjaminfranzi.ciphers;
 
+import com.benjaminfranzi.ciphers.common.Cipher;
 import com.benjaminfranzi.ciphers.common.Shift;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
-import javafx.collections.FXCollections;
 
 public class Rot13 implements Cipher {
     private ObservableBooleanValue spinner = new SimpleBooleanProperty(false);

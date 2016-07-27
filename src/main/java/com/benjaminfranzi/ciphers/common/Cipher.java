@@ -1,4 +1,4 @@
-package com.benjaminfranzi.ciphers;
+package com.benjaminfranzi.ciphers.common;
 
 
 import javafx.beans.value.ObservableBooleanValue;

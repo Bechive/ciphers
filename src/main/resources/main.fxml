@@ -14,7 +14,7 @@
 <?import java.lang.String?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.collections.FXCollections?>
-<?import com.benjaminfranzi.ciphers.Cipher?>
+<?import com.benjaminfranzi.ciphers.common.Cipher?>
 <VBox fx:controller="com.benjaminfranzi.user.controller.MainController"
       xmlns:fx="http://javafx.com/fxml" alignment="center">
     <!--Header-->

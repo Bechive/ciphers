@@ -1,16 +1,10 @@
 package com.benjaminfranzi.user.controller;
 
-import com.benjaminfranzi.ciphers.*;
-import com.benjaminfranzi.ciphers.Init;
-import com.sun.glass.ui.SystemClipboard;
-import javafx.beans.binding.Bindings;
-import javafx.beans.property.BooleanProperty;
-import javafx.beans.property.IntegerProperty;
-import javafx.collections.FXCollections;
+import com.benjaminfranzi.ciphers.common.Cipher;
+import com.benjaminfranzi.ciphers.common.Init;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.text.Text;
 
 public class MainController {
     @FXML ComboBox<Cipher> mainCb;
